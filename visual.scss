@@ -4,14 +4,22 @@
     font-weight: 400;
     font-style: normal;
 }
-
-.header{
+.headerz{
     text-align: right;
-    font-family: 'Product Sans';
-    font-weight: 100;
-    font-style: normal;
-}
-
+    a{
+        font-size: xx-large;
+        font-family: 'Product Sans';
+        font-weight: 100;
+        font-style: normal;
+        color: grey;
+    
+        a:hover{
+            color: pink;
+        }
+        a:visited{
+            color: green;
+        }
+    }}
 .sub{
     @extend %buttons;
     background-color: lightgrey;
